@@ -4,7 +4,6 @@ var tl = gsap.timeline({
     start: "0% 95%",
     end: "70% 50%",
     scrub: true,
-    markers: true,
   },
 });
 tl.to(
@@ -56,7 +55,6 @@ var tl2 = gsap.timeline({
     start: "0% 95%",
     end: "20% 50%",
     scrub: true,
-    //   markers: true,
   },
 });
 tl2.from(
@@ -98,8 +96,8 @@ tl2.from(
 tl2.to(
   "#oran2",
   {
-    width: "18%",
-    left: "42%",
+    width: "23%",
+    left: "38%",
     top: "204%",
   },
   "ca"
@@ -108,8 +106,8 @@ tl2.to(
   "#fanta",
   {
     width: "26%",
-    top: "210%",
-    left: "38%",
+    top: "205%",
+    left: "37%",
   },
   "ca"
 );
